@@ -32,7 +32,7 @@ document.querySelector('.check').addEventListener('click', function () {
     }
 
     else if(guess > secretNumber){
-        if(score > 1 & guess > secretNumber+3)
+        if(score > 1 && guess > secretNumber+3)
         {
             displayMessage('📈 Too High');
             score--;
@@ -51,7 +51,7 @@ document.querySelector('.check').addEventListener('click', function () {
         }
     }
     else if(guess < secretNumber){
-        if(score > 1 & guess < secretNumber-3)
+        if(score > 1 && guess < secretNumber-3)
         {
             displayMessage('📉 Too Low');
             score--;
